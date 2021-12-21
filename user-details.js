@@ -79,7 +79,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
                         <h5>Body: ${post.body}</h5>
                         `;
                                     let buttonR = document.createElement('button');
-                                    buttonR.innerText = 'COMMENTS TO POST';
+                                    buttonR.innerText = 'КОМЕНТАРІ ДО ПОСТА';
                                     buttonR.onclick = (id) => {
 
                                         localStorage.setItem('post-click', post.id);
