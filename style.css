@@ -1,0 +1,196 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wraper {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid darkcyan;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.card:hover {
+    background: lightblue;
+    transition: .3s;
+    transform: rotateY(2grad);
+}
+
+.wraper_details {
+    width: 1800px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid darkcyan;
+    border-radius: 40px;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.wraper_details:hover {
+    background: lightblue;
+    transition: .3s;
+    transform: rotateY(2grad);
+}
+
+.divUserHeader {
+    width: 1400px;
+    height: 150px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.divUserMain {
+    width: 1600px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 5px;
+}
+
+.divUserFooter {
+    width: 1600px;
+    height: 50px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.divUserMainRight,
+.divUserMainCenter,
+.divUserMainLeft {
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.divUserFooterCard {
+    width: 1800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 5px;
+}
+
+.card_details h3 {
+    margin: 0;
+}
+
+.card_details h4 {
+    height: 5px;
+}
+
+.card_details h5 {
+    height: 5px;
+}
+
+.cardPost {
+    width: 1300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid darkcyan;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardPost:hover {
+    background: lightblue;
+    transition: .3s;
+    transform: rotateY(2grad);
+}
+
+.divCardFooter {
+    width: 1300px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card h3 {
+    margin: 0;
+}
+
+.card h4 {
+    height: 50px;
+}
+
+.card h5 {
+    height: 90px;
+}
+
+.cardComments {
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid darkcyan;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.cardComments:hover {
+    background: lightblue;
+    transition: .3s;
+    transform: rotateY(2grad);
+}
+
+.cardComments h3 {
+    margin: 5px;
+}
+
+.cardComments h4 {
+    margin: 5px;
+}
+
+.cardComments h5 {
+    margin: 0;
+    height: 40px;
+}
+
+.cardComments h6 {
+    margin: 0;
+}
