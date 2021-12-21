@@ -45,6 +45,8 @@ fetch('https://jsonplaceholder.typicode.com/posts')
                                         `;
                                     divCardFooter.appendChild(divCardComments)
                                 }
+
+                                buttonP.disabled = true;
                             }
                         })
                 }

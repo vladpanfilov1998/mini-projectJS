@@ -63,7 +63,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
                         <h5>bs: ${user.company.bs}</h5>
                         `;
                 let button = document.createElement('button');
-                button.innerText = 'POST OF CURRENT USER';
+                button.innerText = 'ПОКАЗАТИ ПОСТИ КОРИСТУВАЧА';
                 button.onclick = (id) => {
                     fetch('https://jsonplaceholder.typicode.com/posts')
                         .then(response => response.json())
@@ -91,6 +91,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
                                     divUserFooterCard.appendChild(divCard)
 
                                 }
+                                button.disabled = true;
                             }
 
                         })
@@ -106,7 +107,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
                 wraper.appendChild(divUserFooterCard);
                 document.body.appendChild(wraper);
             }
-
         }
     });
 

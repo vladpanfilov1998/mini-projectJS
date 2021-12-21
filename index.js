@@ -20,7 +20,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
                         <h4>Name: ${user.name}</h4>
                         `;
             let button = document.createElement('button');
-            button.innerText = 'Click Ditails';
+            button.innerText = 'ПОКАЗАТИ ПОДРОБИЦІ';
             button.onclick = (id) => {
                 localStorage.setItem('user-click', user.id);
                 window.location.href = 'user-details.html';
